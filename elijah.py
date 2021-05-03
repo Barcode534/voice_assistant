@@ -31,7 +31,7 @@ def mute(mute):
         elif session.Process and mute == 'mute':
             volume.SetMute(1, None)
 
-ibm_api_key = '1NCqK4M5985D926W54zVmj5JzSLMh6hHYaH-GWMeHd8n'
+ibm_api_key = ''
 
 ibm_url = 'https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/f9cb7d0d-8212-408a-bc5f-eac8853f2574'
 
@@ -47,7 +47,7 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
-weather_api = 'c692a0c7070e1a47184aba9ae86ca946'
+weather_api = ''
 
 # print(requests.get(f"https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid={weather_api}"))
 
